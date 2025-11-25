@@ -1,0 +1,40 @@
+.holder {
+    width: 900px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 1 0 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.item:nth-child(1) {
+    background: #c23929;
+    flex-basis: 50%;
+}
+
+.item:nth-child(2) {
+    background: #f7a935;
+    flex-basis: 50%;
+}
+
+.item:nth-child(3) {
+    background: #9b36da;
+}
+
+.item:nth-child(4) {
+    background: #3793df;
+}
+
+.item:nth-child(5) {
+    background: #2eaf24;
+}
